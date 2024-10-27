@@ -1,0 +1,133 @@
+
+=============================================================
+Maven 
+
+is Project managment tool for app development 
+
+--------------------------------------------------
+Download and Configure Maven 
+
+
+https://maven.apache.org/download.cgi
+
+
+Downloading Apache Maven 3.9.9
+
+	apache-maven-3.9.9-bin.zip 
+	
+	
+Configure maven :
+
+MAVEN_HOME   D:\FLM15thJuly\jars\apache-maven-3.9.9-bin\apache-maven-3.9.9
+
+M2_HOME D:\FLM15thJuly\jars\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin
+
+path  D:\FLM15thJuly\jars\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin
+
+to check maven is present 
+
+
+go to cmd 
+
+mvn -verison 
+
+======================================
+
+
+
+src/main/java   ==> app java code by developer  (java stuff)
+src/main/resources ==> app related reources like (non-java stuff)
+src/test/java  ==> junit cases (java stuff)
+src/test/resources  ==> test data for junit cases (non-java stuff) 
+
+
+pom.xml ==> Project Object Model 
+
+
+
+https://mvnrepository.com/
+
+
+========================================================
+File Handling 
+
+to Create File use 
+File --> 
+
+java.io 
+
+File(String) ==> this will create a  file object  but not physical file
+here Sting is the path of the file including extension
+
+createNewFile():boolean  ==> this will create a physical file 
+
+
+to Create Folder use 
+
+File(C) 
+File(String) ==> this will create a  file object  but not physical folder
+
+String is the path of the folder 
+
+mkdir():boolean ==> this will create a folder 
+
+
+=====================================
+
+System.getProperty("user.dir") ==> this will give you the path of the project folder 
+
+
+https://jenkov.com/tutorials/java-internationalization/simpledateformat.html
+
+
+=============================
+Properties 
+
+.properties
+
+is flat file 
+which stores key and values 
+both in the form of Strings 
+
+
+FIS = FileInputStream class 
+
+Properties()
+
+===================================
+HashMap
+
+
+Map<K, V>(I) :
+		Entry<K, V>(I)
+		
+
+
+
+Manager		Ravi
+Team Lead 	Gopi
+Tester		Reyaz
+Developer	Sam
+
+put(K, V):V
+
+get(Object):V 
+
+keySet():Set<K>
+
+values():Collection
+
+
+HashMap(C)
+
+HashMap()  ==> 16 capacity 
+HashMap(int)
+HashMap(int, float)
+HashMap(Map<? extends K, ? extends V>)
+
+
+entrySet(): Set<Entry<K,V>>
+
+getKey():K
+getValue():V 
+
